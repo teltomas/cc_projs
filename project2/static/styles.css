@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+nav {
+    position: fixed;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    width: 1300px;
+    z-index: 10;
+}
+
+nav img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    line-height: 50px;
+}
+
+header {
+    background-image: url('./images/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header .mission {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
