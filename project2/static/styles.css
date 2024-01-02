@@ -16,6 +16,23 @@ a, a:visited {
     color: inherit;
 }
 
+h2 {
+    font-size: 28px;
+    line-height: 1.8;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h4 {
+    line-height: 1.8;
+    text-align: center;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 3;
+}
+
 main {
     position: relative;
     margin: 0 auto;
@@ -24,11 +41,13 @@ main {
 
 nav {
     position: fixed;
+    top: 0;
     height: 70px;
     padding: 10px;
     border-bottom: 1px solid seashell;
     width: 1300px;
     z-index: 10;
+    background-color: black;
 }
 
 nav img {
@@ -43,18 +62,87 @@ nav ul {
 nav li {
     display: inline;
     line-height: 50px;
+    margin-left: 20px;
 }
+
 
 header {
     background-image: url('./images/img-mission-background.webp');
     height: 700px;
     width: 1200px;
     display: flex;
-    margin: 0 auto;
+    margin: 70px auto;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 header .mission {
     width: 100%;
-    align-items: center;
     text-align: center;
+    background-color: #000000dd;
+}
+
+.teamonth_container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.teamonth_imgcont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+picture {
+    max-width: 300px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.teamonth_imgcont img {
+    max-height: 200px;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.locations {
+    background-image: url('./images/img-locations-background.jpg');
+    height: 500px;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.locations_flex {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.locations .box {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts {
+    text-align: center;
+    height: 200px;
+}
+
+footer {
+    float: bottom;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
 }
