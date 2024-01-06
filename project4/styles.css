@@ -1,6 +1,6 @@
 /* UNIVERSAL ATRIBUTES */
 
-/* color space between #f2eae7, #ad4b4c, #394938*/
+/* color space between #f2eae7, #ad4b4c*/
 
 * {
     margin: 0;
@@ -247,6 +247,7 @@ nav li:hover {
     width: 100%;
     background-color: #ad4b4c;
     padding: 2rem 0;
+    margin-top: 4rem;
 }
 
 .locations h1 {
