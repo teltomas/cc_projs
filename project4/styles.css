@@ -28,6 +28,12 @@ h1 {
     font-size: 1.25rem;
 }
 
+h2 {
+    font-family: "Allura";
+    font-size: 3rem;
+    color:#f2eae7;
+}
+
 h3 {
     font-size: 1.10rem;
 }
@@ -59,7 +65,7 @@ header img {
     margin: 0 0.35rem;
 }
 
-header h1, h4 {
+header h1, header h4 {
     display: inline;
 }
 
@@ -100,9 +106,14 @@ nav li:hover {
 
 /* products section */
 
-.products_container {
+.container {
     width: 80%;
-    margin: 8rem auto;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.margin {
+    margin-top: 8rem;
 }
 
 .quote {
@@ -116,9 +127,8 @@ nav li:hover {
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-flow: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -128,20 +138,149 @@ nav li:hover {
     padding: 1rem;
     flex-flow: column;
     border-radius: 1.3rem;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    background-color: #ad4b4c;
+    background-color: #ad4b4c99;
 }
 
-.card img {
+.img_container {    
     width: 100%;
+    height: 60%;
+    overflow: hidden;
     border-radius: 1rem;
 }
 
+.img_container img {
+    width: 100%;  
+    border-radius: 1rem;
+
+}
+
 .caption {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     font-size: 1.3rem;
     text-align: center;
     line-height: 2;
     color: #f2eae7;
+}
+
+/* coffee roasting section */
+
+.roast_section {    
+    width: 100%;
+    height: 900px;
+    margin-top: 4rem;
+    background-image: url("./resources/images/coffeeroastbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roast_container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.roast_article {
+    width: 40%;
+    margin: 1rem;
+    background-color: #ad4b4c99;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 3%;
+}
+
+.roast_article p {
+    color: #f2eae7;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.subs_bttn {
+    width: fit-content;
+    background-color: #f2eae7;
+    color: #ad4b4c;
+    border-radius: 0.7rem;
+    font-family: "Allura";
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    font-weight: 600;
+}
+
+.subs_bttn:hover {    
+    background-color: #ad4b4c;
+    color: #f2eae7;
+    cursor: pointer;
+}
+
+/* team section */
+  /* reuse the containers and cards from products section */
+
+.container h4 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+#teamflex .card {
+    flex: 1 1 13%;
+}
+
+#teamflex .card .img_container {
+    height: 30%;
+}
+
+#teamflex .card h2 {
+    margin-top: 1.5rem;
+}
+
+/* locations section */
+
+.locations {
+    width: 100%;
+    background-color: #ad4b4c;
+    padding: 2rem 0;
+}
+
+.locations h1 {
+    text-align: center;
+    color: #f2eae7;
+    margin-top: 2rem;
+}
+
+.locations .container {
+    margin-top: 2rem;
+}
+
+#locations .card {
+    background-color:#f2eae7;
+}
+
+#locations .card h3 {
+    margin: 2rem;
+}
+
+#locations .card .img_container {
+    height: auto;
+}
+
+.contacts {
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+/* footer */
+
+footer {
+    float: bottom;
+    bottom: 0;
+    text-align: center;
+    padding: 1.5rem;
 }
