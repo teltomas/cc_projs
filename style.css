@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:visited, a:active, a:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #ad4b4c;
+}
+
+body {
+    background-color: #f2eae7;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+main {
+    width: 100%;
+    margin-top: 5%;
+}
+
+li {
+    background-color: #f2eae7;
+    color: #ad4b4c;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+li:hover {    
+    background-color: #ad4b4c;
+    color: #f2eae7;
+    cursor: pointer;
+}

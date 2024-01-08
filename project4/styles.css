@@ -16,7 +16,7 @@ a, a:visited, a:active, a:hover {
 
 html {
     font-size: 16px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     color: #ad4b4c;
 }
 
