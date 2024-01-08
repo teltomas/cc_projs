@@ -314,6 +314,7 @@ footer {
     .roast_section {    
         height: auto;
         padding: 5%;
+        background-image: url("./resources/images/coffeeroast.jpg");
     }
 
     .roast_container {
@@ -350,7 +351,7 @@ footer {
 
     
     .roast_section {    
-        padding: 0;
+        padding: 0;        
     }
 
 
