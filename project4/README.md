@@ -8,15 +8,25 @@ The objective of this project was to create a responsive webpage for a business 
     - A section describing some of the company’s employees or teammates.
 
 
-Codecademy provided a link of an example site as inspiration.
+Codecademy provided a link of an example site as inspiration:
 https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/example-site/index.html
 
+<p align="center">
+  <img src="./resources/example.png" />
+</p>
 
 My approach to the challenge was to create something new instead of just following the inspirational website.
 
-Since I was drinking an embracing warm cup of coffee at the time I was starting the project, what better use case scennario than just make a coffee shop webpage?
+Since I was drinking an embracing warm cup of coffee at the time I was starting the project, what better use-case scenario than just making a coffee shop webpage?
 
-So I just searched for a free coffeeshop logo online and strated building a page around the logo, and here's the result.
+So I just searched for a free coffee shop logo online and started building a page around the logo, and here's the result.
+
+<p align="center">
+  <img src="./resources/MissBeans_full.png" />
+  <img src="./resources/MissBeans_tablet.png" />
+</p>
+
+Except for the logo, all images were collected from unsplash.com.
 
 For the page I just used HTML and CSS.
 
