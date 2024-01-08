@@ -22,7 +22,13 @@ My approach to the challenge was to create something new instead of just followi
 
 Since I was drinking an embracing warm cup of coffee at the time I was starting the project, what better use-case scenario than just making a coffee shop webpage?
 
-So I just searched for a free coffee shop logo online and started building a page around the logo, and here's the result.
+So I just searched for a free coffee shop logo online, chose this one...
+
+<p align="center">
+  <img src="./resources/logos/logosmall.png" />
+</p>
+
+ ...and started building a page around the logo, and here's the result:
 
 <p align="center">
   <img src="./resources/MissBeans_full.png" />
