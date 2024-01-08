@@ -9,6 +9,8 @@ The objective of this project was to create a responsive webpage for a business 
 
 
 Codecademy provided a link of an example site as inspiration.
+https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/example-site/index.html
+
 
 My approach to the challenge was to create something new instead of just following the inspirational website.
 
