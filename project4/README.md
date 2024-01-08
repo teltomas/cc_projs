@@ -32,6 +32,7 @@ So I just searched for a free coffee shop logo online, chose this one...
 
 <p align="center">
   <img src="./resources/MissBeans_full.png" />
+  &nbsp;&nbsp;&nbsp;
   <img src="./resources/MissBeans_tablet.png" />
 </p>
 
