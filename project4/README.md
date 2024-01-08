@@ -15,6 +15,9 @@ https://content.codecademy.com/PRO/independent-practice-projects/flexbox-busines
   <img src="./resources/example.png" />
 </p>
 
+
+# My Approach
+
 My approach to the challenge was to create something new instead of just following the inspirational website.
 
 Since I was drinking an embracing warm cup of coffee at the time I was starting the project, what better use-case scenario than just making a coffee shop webpage?
