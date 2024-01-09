@@ -18,3 +18,6 @@ https://content.codecademy.com/PRO/independent-practice-projects/responsive-club
 
 # My Take
 
+Generated logo with AI at Designer Image Creator by Microsoft. 
+
+(currently in progress)

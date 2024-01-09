@@ -1,0 +1,118 @@
+/* GLOBAL */
+
+/* colors - dark blue: #00131f, light caramel: #e7c899, dark caramel: #b78050 */
+/* font family: Anton for headings, Abel for text */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abel", sans-serif;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #00131f;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Anton", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color:#e7c899;
+}
+
+h4 {
+    font-family: "Abel", sans-serif;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+ a a:active, a:hover, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    color: #e7c899;
+}
+
+/* --- structure --- */ 
+
+
+/* banner, splash and nav */
+
+.splash {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.framelines {
+    color: #e7c899;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+hr {
+    height: 7px;
+    margin: 1rem 0;
+    width: 500px;
+}
+
+.left hr {
+    background: linear-gradient(to left, #e7c899, #b78050);
+}
+
+.right hr {
+    background: linear-gradient(to left, #b78050, #e7c899);
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.splash img {
+    height: 15rem;
+}
+
+
+/* welcome section */
+
+.welcome {
+    width: 100%;
+    margin-top: 1.25rem;
+    background-image: url("./resources/images/vespabg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.welcome h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+/* upcoming events */
