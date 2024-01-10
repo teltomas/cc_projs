@@ -116,3 +116,153 @@ hr {
 }
 
 /* upcoming events */
+
+.events {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
+}
+
+.events_article {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+.article_bg {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    padding: 1rem;
+}
+
+.article_container {
+    text-align: center;
+    font-weight: 600;
+}
+
+.article_container h2 {
+    margin-bottom: 1rem;
+}
+
+.road_trip2025 {
+    background-image: url("./resources/images/events_to_come/instambul.jpg");
+    grid-area: 1 / 1 / 1 / span 6;
+}
+
+.road_trip2025 h2, .road_trip2025 h4, .road_trip2025 p {
+    color:#e7c899;
+}
+
+.road_trip2025 .article_bg:hover {
+    background-color: #50753faa;
+}
+
+.road_trip2024 {
+    background-image: url("./resources/images/events_to_come/italy.jpg");
+    grid-area: 1 / 7 / 1 / span 6;
+}
+
+.road_trip2024 h2, .road_trip2024 h4, .road_trip2024 p {
+    color:#a5020d;
+}
+
+.road_trip2024 .article_bg:hover {
+    background-color: #92b4bdaa;
+}
+
+.next_meet {
+        background-image: url("./resources/images/events_to_come/nextmeet.jpg");
+        grid-area: 2 / 1 / 3 / 5;
+    
+}
+
+.next_meet h2, .next_meet h4, .next_meet p {
+    color:white;
+}
+
+.next_meet .article_bg:hover {
+    background-color: #b78050cc;
+}
+
+
+.month_vespa {
+    background-image: url("./resources/images/articles/vespamonth.jpg");
+    grid-area: 2 / 5 / 3 / span 4;
+
+}
+
+.month_vespa h2, .month_vespa h4, .month_vespa p {
+color:white;
+}
+
+.month_vespa .article_bg:hover {
+background-color: #98a0b1cc;
+}
+
+
+.theme_event {
+    background-image: url("./resources/images/past_events/thematicmeet.jpg");
+    grid-area: 2 / 9 / 3 / span 4;
+
+}
+
+.theme_event h2, .theme_event h4, .theme_event p {
+color:white;
+}
+
+.theme_event .article_bg:hover {
+background-color: #415f93cc;
+}
+
+
+.past_events {
+    background-image: url("./resources/images/past_events/meetup3.jpg");
+    grid-area: 3 / 1 / 4 / span 3;
+
+}
+
+.past_events h2, .past_events h4, .past_events p {
+color:#ffeed5;
+}
+
+.past_events .article_bg:hover {
+background-color: #00131fcc;
+}
+
+
+.members {
+    background-image: url("./resources/images/articles/members.jpg");
+    grid-area: 3 / 4 / 4 / span 3;
+
+}
+
+.members h2, .members h4, .members p {
+color:#ffeed5;
+}
+
+.members .article_bg:hover {
+background-color: #00131fcc;
+}
+
+
+
+.forum {
+    background-image: url("./resources/images/articles/forum2.jpg");
+    grid-area: 3 / 7 / 4 / span 3;
+
+}
+
+.forum h2, .forum h4, .forum p {
+color:#ffeed5;
+}
+
+.forum .article_bg:hover {
+background-color: #00131fcc;
+}
