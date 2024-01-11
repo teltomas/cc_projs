@@ -93,26 +93,21 @@ hr {
 
 .welcome {
     width: 100%;
-    margin-top: 1.25rem;
-    background-image: url("./resources/images/vespabg2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0rem 1rem;
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 .welcome h1 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .welcome p {
     font-size: 1.2rem;
-    line-height: 2.5;
 }
 
 /* upcoming events */
@@ -160,8 +155,12 @@ hr {
     color:#e7c899;
 }
 
+.road_trip2025 .article_bg {
+    background-color: #50753fcc;
+}
+
 .road_trip2025 .article_bg:hover {
-    background-color: #50753faa;
+    background-color: #50753f77;
 }
 
 .road_trip2024 {
@@ -173,8 +172,16 @@ hr {
     color:#a5020d;
 }
 
+.road_trip2024 .article_bg {
+    background-color: #92b4bdcc;
+}
+
+.road_trip2024 .article_bg {
+    background-color: #92b4bdcc;
+}
+
 .road_trip2024 .article_bg:hover {
-    background-color: #92b4bdaa;
+    background-color: #92b4bd77;
 }
 
 .next_meet {
@@ -187,8 +194,12 @@ hr {
     color:white;
 }
 
-.next_meet .article_bg:hover {
+.next_meet .article_bg {
     background-color: #b78050cc;
+}
+
+.next_meet .article_bg:hover {
+    background-color: #b7805077;
 }
 
 
@@ -202,8 +213,12 @@ hr {
 color:white;
 }
 
+.month_vespa .article_bg {
+    background-color: #98a0b1cc;
+    }
+
 .month_vespa .article_bg:hover {
-background-color: #98a0b1cc;
+background-color: #98a0b177;
 }
 
 
@@ -217,8 +232,12 @@ background-color: #98a0b1cc;
 color:white;
 }
 
+.theme_event .article_bg {
+    background-color: #415f93cc;
+    }
+
 .theme_event .article_bg:hover {
-background-color: #415f93cc;
+background-color: #415f9377;
 }
 
 
@@ -232,8 +251,12 @@ background-color: #415f93cc;
 color:#ffeed5;
 }
 
+.past_events .article_bg {
+    background-color: #00131fcc;
+    }
+
 .past_events .article_bg:hover {
-background-color: #00131fcc;
+background-color: #00131f77;
 }
 
 
@@ -247,10 +270,13 @@ background-color: #00131fcc;
 color:#ffeed5;
 }
 
-.members .article_bg:hover {
-background-color: #00131fcc;
-}
+.members .article_bg {
+    background-color: #00131fcc;
+    }
 
+.members .article_bg:hover {
+background-color: #00131f77;
+}
 
 
 .forum {
@@ -263,6 +289,65 @@ background-color: #00131fcc;
 color:#ffeed5;
 }
 
+.forum .article_bg {
+    background-color: #00131fcc;
+    }
+
 .forum .article_bg:hover {
-background-color: #00131fcc;
+background-color: #00131f77;
+}
+
+
+
+.about {
+    background-image: url("./resources/images/articles/vespa2.jpg");
+    grid-area: 3 / 10 / 4 / span 3;
+
+}
+
+.about h2, .about h4, .about p {
+color:#ffeed5;
+}
+
+.about .article_bg {
+    background-color: #00131fcc;
+    }
+
+.about .article_bg:hover {
+background-color: #00131f77;
+}
+
+
+.newsletter {
+    width: 100%;
+    background-image: url("./resources/images/vespabg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter_container {
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+}
+
+.newsletter h5 {
+    background-color: #b78050;
+    width: fit-content;
+    padding: 1rem;
+    color: #00131f;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.newsletter p {
+    margin: 1rem;
+}
+
+.newsletter h5:hover {
+    background-color: #e7c899;
 }
