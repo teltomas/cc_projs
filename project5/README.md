@@ -30,4 +30,8 @@ And here's the result:
 ![image info](./resources/Vespa_Club_thumb.png)
 
 
+Except for the logo, all images were collected from unsplash.com.
+
+For the page I just used HTML and CSS.
+
 # Hope you like it!
