@@ -14,10 +14,20 @@ The project should demonstrate many of the responsive design tools learned so fa
 The CodeCademy team provided an inspirational page in the next link:
 https://content.codecademy.com/PRO/independent-practice-projects/responsive-club-site/example-site/index.html
 
+
 ![image info](./resources/inspiration.png)
+
 
 # My Take
 
-Generated logo with AI at Designer Image Creator by Microsoft. 
+Just like the last project, I based the page around a logo, in this case a generated logo with AI at Designer Image Creator by Microsoft of a Vespa Scooter Club. 
 
-(currently in progress)
+And in this one, instead of only using flexbox, I wanted to do something with some grid elements.
+
+And here's the result:
+
+
+![image info](./resources/Vespa_Club_thumb.png)
+
+
+# Hope you like it!
