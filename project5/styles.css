@@ -50,12 +50,13 @@ p {
 .splash {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
 
 .framelines {
+    width: 100%;
     color: #e7c899;
     display: flex;
     flex-flow: column;
@@ -65,7 +66,15 @@ p {
 hr {
     height: 7px;
     margin: 1rem 0;
-    width: 500px;
+    width: 100%;
+}
+
+.small {
+    width: 95%;
+}
+
+.smaller {
+    width: 90%;
 }
 
 .left hr {
@@ -101,16 +110,11 @@ hr {
     padding-bottom: 1.5rem;
 }
 
-.welcome h1 {
-    text-align: center;
-    margin-bottom: 1rem;
+.welcome h4 {
+    margin-top: 1rem;
 }
 
-.welcome p {
-    font-size: 1.2rem;
-}
-
-/* upcoming events */
+/* cards global */
 
 .events {
     width: 100%;
@@ -146,17 +150,24 @@ hr {
     margin-bottom: 1rem;
 }
 
+/* cards road trips */
+
 .road_trip2025 {
     background-image: url("./resources/images/events_to_come/instambul.jpg");
     grid-area: 1 / 1 / 1 / span 6;
 }
 
 .road_trip2025 h2, .road_trip2025 h4, .road_trip2025 p {
-    color:#e7c899;
+    color:#ffeed5;
+    transition: 0.5s;
 }
 
 .road_trip2025 .article_bg {
-    background-color: #50753fcc;
+    background-color: #00131fcc;
+}
+
+.road_trip2025 .article_bg:hover h2, .road_trip2025 .article_bg:hover h4, .road_trip2025 .article_bg:hover p {
+    color:#b8ff9c;
 }
 
 .road_trip2025 .article_bg:hover {
@@ -169,20 +180,24 @@ hr {
 }
 
 .road_trip2024 h2, .road_trip2024 h4, .road_trip2024 p {
+    color:#ffeed5;
+    transition: 0.5s;
+}
+
+.road_trip2024 .article_bg:hover h2, .road_trip2024 .article_bg:hover h4, .road_trip2024 .article_bg:hover p {
     color:#a5020d;
 }
 
 .road_trip2024 .article_bg {
-    background-color: #92b4bdcc;
+    background-color: #00131fcc;
 }
 
-.road_trip2024 .article_bg {
-    background-color: #92b4bdcc;
-}
 
 .road_trip2024 .article_bg:hover {
     background-color: #92b4bd77;
 }
+
+/* cards 2nd row */
 
 .next_meet {
         background-image: url("./resources/images/events_to_come/nextmeet.jpg");
@@ -191,17 +206,16 @@ hr {
 }
 
 .next_meet h2, .next_meet h4, .next_meet p {
-    color:white;
+    color:#ffeed5;
 }
 
 .next_meet .article_bg {
-    background-color: #b78050cc;
+    background-color: #00131fcc;
 }
 
 .next_meet .article_bg:hover {
     background-color: #b7805077;
 }
-
 
 .month_vespa {
     background-image: url("./resources/images/articles/vespamonth.jpg");
@@ -210,17 +224,16 @@ hr {
 }
 
 .month_vespa h2, .month_vespa h4, .month_vespa p {
-color:white;
+    color:#ffeed5;
 }
 
 .month_vespa .article_bg {
-    background-color: #98a0b1cc;
+    background-color: #00131fcc;
     }
 
 .month_vespa .article_bg:hover {
 background-color: #98a0b177;
 }
-
 
 .theme_event {
     background-image: url("./resources/images/past_events/thematicmeet.jpg");
@@ -229,17 +242,18 @@ background-color: #98a0b177;
 }
 
 .theme_event h2, .theme_event h4, .theme_event p {
-color:white;
+    color:#ffeed5;
 }
 
 .theme_event .article_bg {
-    background-color: #415f93cc;
+    background-color: #00131fcc;
     }
 
 .theme_event .article_bg:hover {
 background-color: #415f9377;
 }
 
+/* cards 3rd row */
 
 .past_events {
     background-image: url("./resources/images/past_events/meetup3.jpg");
@@ -248,7 +262,7 @@ background-color: #415f9377;
 }
 
 .past_events h2, .past_events h4, .past_events p {
-color:#ffeed5;
+    color:#ffeed5;
 }
 
 .past_events .article_bg {
@@ -297,8 +311,6 @@ color:#ffeed5;
 background-color: #00131f77;
 }
 
-
-
 .about {
     background-image: url("./resources/images/articles/vespa2.jpg");
     grid-area: 3 / 10 / 4 / span 3;
@@ -317,6 +329,7 @@ color:#ffeed5;
 background-color: #00131f77;
 }
 
+/*newsletter*/
 
 .newsletter {
     width: 100%;
@@ -342,6 +355,7 @@ background-color: #00131f77;
     color: #00131f;
     text-transform: uppercase;
     margin: 0 auto;
+    letter-spacing: 0.2rem;
 }
 
 .newsletter p {
@@ -350,4 +364,109 @@ background-color: #00131f77;
 
 .newsletter h5:hover {
     background-color: #e7c899;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    float: bottom;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+
+/* RESPONSIVITY */
+
+@media only screen and (max-width: 1500px) {
+    html {
+        font-size: 16px;
+    }
+
+    .splash {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .splash {
+        width: 95%;
+    }
+
+    .road_trip2025 {
+        grid-area: 1 / 1 / 1 / span 12;
+    }
+
+    .road_trip2024 {
+        grid-area: 2 / 1 / 3 / span 12;
+    }
+
+    .next_meet {
+        grid-area: 3 / 1 / 4 / span 12;    
+    }
+
+    .month_vespa {
+        grid-area: 4 / 1 / 5 / span 12;    
+    }
+
+    .theme_event {
+        grid-area: 5 / 1 / 6 / span 12;    
+    }
+
+    .past_events {
+        grid-area: 6 / 1 / 7 / span 6;    
+    }
+
+    .members {
+        grid-area: 6 / 7 / 7 / span 6;    
+    }
+
+    .forum {
+        grid-area: 7 / 1 / 8 / span 6;
+    }
+
+    .about {
+       grid-area: 7 / 7 / 8 / span 6;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .small {
+        width: 80%;
+    }
+    
+    .smaller {
+        width: 60%;
+    }
+
+    .past_events {
+        grid-area: 6 / 1 / 7 / span 12;    
+    }
+
+    .members {
+        grid-area: 7 / 1 / 8 / span 12;    
+    }
+
+    .forum {
+        grid-area: 8 / 1 / 9 / span 12;
+    }
+
+    .about {
+       grid-area: 9 / 1 / 10 / span 12;
+    }
+
+    footer h4 {
+        font-size: 0.5rem;
+    }
 }
