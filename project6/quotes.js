@@ -49,4 +49,9 @@ const quotes = [
     }
 ];
 
-const generateQuote = () => quotes[Math.floor(Math.random()*quotes.length)];
+const generateQuote = () => {
+    let quote = quotes[Math.floor(Math.random()*quotes.length)];
+
+    document.getElementById("quote").innerHTML = '"' + quote.quote + '"';
+    document.getElementById("author").innerHTML = quote.author;    
+}

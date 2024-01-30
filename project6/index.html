@@ -20,7 +20,7 @@
         <p>The messages are randomly selected inspirational quotes, sourced <a href="https://parade.com/973277/jessicasager/inspirational-quotes/" target="_blank">here</a>.</p>
 
 
-        <button onclick="getQuote()">Get Inspired</button>
+        <button onclick="generateQuote()">Get Inspired</button>
 
         <h2 id="quote"></h2>
 
@@ -28,15 +28,5 @@
 
 
     </body>
-
-    <script>
-        function getQuote() {
-            const quote = generateQuote();
-
-            document.getElementById("quote").innerHTML = '"' + quote.quote + '"';
-            document.getElementById("author").innerHTML = quote.author;
-
-        };
-    </script>
 
 </html>
