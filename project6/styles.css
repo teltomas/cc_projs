@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+
+h1, h2, h3, p {
+    margin: 2rem 0;
+}
+
+h2 {
+    font-family: "Allura", serif;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color:rgb(52, 86, 87);
+}
+
+h3 {
+    font-family: "Merriweather", serif;
+    font-size: 0.7rem;
+    color:rgb(52, 86, 87);
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 3px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(52, 86, 87);
+}
+
+button:active {
+    background-color: rgb(35, 57, 58);
+}

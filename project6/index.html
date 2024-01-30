@@ -3,6 +3,12 @@
     <head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Montserrat:ital,wght@0,400;0,800;1,200;1,400&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="styles.css">
+
         <script src="quotes.js"></script> 
     </head>
     <body>
@@ -11,14 +17,14 @@
 
         <p>In this project, the objective was to build a message generator program that outputs a new, random message every time a user runs the program. The program should showcase basic JavaScript syntax and programming concepts.</p>
 
-        <p>The messages are randomly selected inspirational quotes.</p>
+        <p>The messages are randomly selected inspirational quotes, sourced <a href="https://parade.com/973277/jessicasager/inspirational-quotes/" target="_blank">here</a>.</p>
 
 
         <button onclick="getQuote()">Get Inspired</button>
 
-        <p id="quote"></p>
+        <h2 id="quote"></h2>
 
-        <p id="author"></p>
+        <h3 id="author"></h3>
 
 
     </body>
@@ -27,7 +33,7 @@
         function getQuote() {
             const quote = generateQuote();
 
-            document.getElementById("quote").innerHTML = quote.quote;
+            document.getElementById("quote").innerHTML = '"' + quote.quote + '"';
             document.getElementById("author").innerHTML = quote.author;
 
         };

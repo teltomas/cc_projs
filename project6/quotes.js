@@ -49,6 +49,4 @@ const quotes = [
     }
 ];
 
-console.log(Math.floor(Math.random()*quotes.length));
-
 const generateQuote = () => quotes[Math.floor(Math.random()*quotes.length)];
