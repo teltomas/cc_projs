@@ -3,13 +3,34 @@
     <head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="quotes.js"></script> 
     </head>
     <body>
         
-        <h1>Mixed Messages (in progress)</h1>
+        <h1>Mixed Messages - Inspirational Quotes</h1>
 
-        <p>In this project, the objective is to build a message generator program that outputs a new, random message every time a user runs the program. The program should showcase basic JavaScript syntax and programming concepts.</p>
+        <p>In this project, the objective was to build a message generator program that outputs a new, random message every time a user runs the program. The program should showcase basic JavaScript syntax and programming concepts.</p>
 
         <p>The messages are randomly selected inspirational quotes.</p>
+
+
+        <button onclick="getQuote()">Get Inspired</button>
+
+        <p id="quote"></p>
+
+        <p id="author"></p>
+
+
     </body>
+
+    <script>
+        function getQuote() {
+            const quote = generateQuote();
+
+            document.getElementById("quote").innerHTML = quote.quote;
+            document.getElementById("author").innerHTML = quote.author;
+
+        };
+    </script>
+
 </html>
